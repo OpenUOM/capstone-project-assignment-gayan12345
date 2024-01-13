@@ -96,7 +96,7 @@ app.post("/getStudentInfo", async function (req, res) {
   res.setHeader("Content-Type", "application/json");
   res.end(JSON.stringify(data));
 });
-
+z
 app.post("/addStudent", async function (req, res) {
   let reqBody = req.body;
   console.log(
